@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Fairytail';
+    src: url('../../../fonts/design.jasonwalcott.fairytalejf.ttf') format('truetype');
+}
+
+ul {
+    font-family: 'Fairytail', 'Arial', sans-serif;
+    list-style-type: none;
+    li {
+        IMG {
+            height: 100px;
+        }
+        a {
+            font-size: 40px;
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
