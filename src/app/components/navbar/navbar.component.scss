@@ -3,16 +3,25 @@
     src: url('../../../fonts/design.jasonwalcott.fairytalejf.ttf') format('truetype');
 }
 
+.barre {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+}
+
 ul {
     font-family: 'Fairytail', 'Arial', sans-serif;
     list-style-type: none;
+    background-color: grey;
+    margin-bottom: 0;
     li {
+        margin-top: 15px;
         text-align: center;
         img {
-            height: 100px;
+            width: 100%;
         }
         a {
-            font-size: 40px;
+            font-size: 30px;
             text-decoration: none;
             color: black;
         }
